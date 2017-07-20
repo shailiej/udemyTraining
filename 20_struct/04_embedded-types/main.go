@@ -22,6 +22,7 @@ func main() {
 			Last:  "Bond",
 			Age:   20,
 		},
+
 		LicenseToKill: true,
 	}
 

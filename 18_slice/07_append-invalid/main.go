@@ -14,4 +14,8 @@ func main() {
 	greeting[3] = "suprabadham"
 
 	fmt.Println(greeting[2])
+
+	/* greeting = append(greeting, "suprabadham")
+	   fmt.Println(greeting[3])
+	*/
 }

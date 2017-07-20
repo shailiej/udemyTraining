@@ -17,3 +17,5 @@ func main() {
 	}
 	fmt.Println(transactions)
 }
+
+// make j < i+1 if you want to increase length of inner slices progressively

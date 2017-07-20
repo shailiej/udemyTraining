@@ -9,4 +9,5 @@ func main() {
 	myGreeting["Jenny"] = "Bonjour."
 
 	fmt.Println(myGreeting)
+	//	fmt.Println(myGreeting["Tim"])
 }

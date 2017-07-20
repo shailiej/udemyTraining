@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	n := average(43, 56, 87, 12, 45, 57)
 	fmt.Println(n)
+	//fmt.Printf("%.2f ", n)
 }
 
 func average(sf ...float64) float64 {

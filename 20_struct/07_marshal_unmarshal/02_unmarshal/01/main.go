@@ -13,11 +13,12 @@ type person struct {
 
 func main() {
 	var p1 person
+	//p1 := person{}
 	fmt.Println(p1.First)
 	fmt.Println(p1.Last)
 	fmt.Println(p1.Age)
 
-	bs := []byte(`{"First":"James", "Last":"Bond", "Age":20}`)
+	bs := []byte(`{"First":"James", "Last":"Bond", "Age":20, "Height": 5}`) // extra attribute will remain unused
 	json.Unmarshal(bs, &p1)
 
 	fmt.Println("--------------")

@@ -8,6 +8,9 @@ func main() {
 	for i := 65; i <= 122; i++ {
 		x[i-65] = string(i)
 	}
+	/*for i := 0; i <= 57; i++ {
+		x[i] = string(i)
+	}*/
 
 	fmt.Println(x)
 	fmt.Println(x[42])

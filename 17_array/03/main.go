@@ -15,5 +15,6 @@ func main() {
 		if i > 50 {
 			break
 		}
+		//	fmt.Printf("%v - %T - %b\n", v, v, v) will print from 0 to 50
 	}
 }
