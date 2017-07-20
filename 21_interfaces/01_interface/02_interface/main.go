@@ -21,6 +21,11 @@ func info(z shape) {
 
 func main() {
 	s := square{10}
-	fmt.Printf("%T\n",s)
+	fmt.Printf("%T\n", s)
 	info(s)
 }
+
+/* "type implements an interface"
+object struct (square) is implementing interface (shape)
+because interface has defined same method (area())
+which is attached to struct ie, area() is a member of struct */
